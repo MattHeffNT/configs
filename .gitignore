@@ -1,0 +1,8 @@
+*
+!.gitignore
+
+!/.vim
+!.vimrc
+!.bashrc
+!.bash_profile
+!/bashscripts
