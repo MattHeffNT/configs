@@ -12,7 +12,6 @@ set nobackup
 set undodir=~/.vim/undodir
 set undofile
 set incsearch
-set ma
 set wildmenu
 set wildmode=list:longest
 set wildignore=*.docx,*.jpg,*.gif,*.pdf,*.pyc,*.exe,*.flv,*.img,*.xlsx
