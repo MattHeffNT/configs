@@ -1,12 +1,18 @@
 syntax on
+nnoremap Y y$
+nnoremap n nzzzv
+nnoremap N Nzzzv
+nnoremap J mzJ`z
+inoremap , , <c-g>u
+inoremap . . <c-g>u
+inoremap ! ! <c-g>u
+inoremap ? ? <c-g>u
 set noerrorbells
 set tabstop=4 softtabstop=4
 set shiftwidth=4
-set textwidth =79
 set expandtab
 set smartindent
 set nu
-set relativenumber
 set noswapfile
 set nobackup
 set undodir=~/.vim/undodir
@@ -30,6 +36,8 @@ call plug#end()
 colorscheme dracula 
 set background =dark
 set spell
-
 " open NerdTree automatically
 autocmd VimEnter * NERDTree
+
+set relativenumber
+set scrolloff=8
